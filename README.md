@@ -18,7 +18,7 @@ A CNN that predicts a person's age (in years) from a face image.
 - Read the age from the file name (first number) as the label.
 - Resize images to 64x64 and keep RGB (3 channels).
 - Normalize pixels by dividing by 255.
-- Split into 70% train, 15% validation, 15% test (`random_state=42`). The test set is used only for the final evaluation.
+- Split into 70% train, 15% validation, 15% test( The test set is used only for the final evaluation)
 
 - 
  ## 4. Model Architecture
