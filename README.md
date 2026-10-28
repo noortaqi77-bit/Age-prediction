@@ -4,7 +4,7 @@
 ## 1. Overview
 A CNN that predicts a person's age (in years) from a face image.
 
-**Task:** regression. The model takes a 64x64 RGB face image and outputs one number, the predicted age. Quality is measured by MAE, the average error in years.
+**Task:** regression. The model takes a 64x64 pixel face image and outputs one number( the predicted age), and the quality is measured by MAE, the average error in years
 
 
 
