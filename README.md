@@ -3,6 +3,7 @@
 
 ## 1. Overview
 A CNN that predicts a person's age (in years) from a face image.
+
 **Task:** regression. The model takes a 64x64 RGB face image and outputs one number, the predicted age. Quality is measured by MAE, the average error in years.
 
 
@@ -22,6 +23,8 @@ A CNN that predicts a person's age (in years) from a face image.
 - 
  ## 4. Model Architecture
 Conv2D(20) → MaxPooling → Conv2D(30) → MaxPooling → Conv2D(40) → Flatten → Dense(100) x3 → Dense(1)
-Loss: MAE. Metric: MAE. Optimizer: Adam. EarlyStopping (patience=3, restore_best_weights=True).
+
+Loss: MAE. Metric: MAE. Optimizer: Adam. EarlyStopping by patience=3
+
 
 - 
