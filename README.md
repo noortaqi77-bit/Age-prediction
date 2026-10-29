@@ -35,10 +35,14 @@ Images with an error above 5 years were inspected. Main causes:
 - **Older people and children:** the dataset has fewer images for these ages, so errors are larger.
 - **Makeup, glasses and lighting:** they hide or change age cues such as wrinkles and skin texture.
 
-## 7. App (Gradio)
-The app take uploaded face image or webcam photo and shows the predicted age in years
+## 7. App (Streamlit)
+The app has two tabs:
+- (Upload) upload a face image to see the predict age in years.
+- (Webcam) Open camera and take a photo, Predict the age.
 
-link= ()
+ In the App the image is resized to 64x64 and divided by 255, the same preprocessing used in training.
+
+ link=(https://age-prediction12.streamlit.app/)
 
 ## 10. Ethics & Limitations
 - Accuracy drops with poor lighting, tilted faces, makeup and low resolution.
